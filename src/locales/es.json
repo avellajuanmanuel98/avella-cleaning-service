@@ -1,0 +1,345 @@
+{
+  "lang": "es",
+
+  "nav": {
+    "services": "Servicios",
+    "whyUs": "Nosotros",
+    "process": "Proceso",
+    "gallery": "Galería",
+    "testimonials": "Testimonios",
+    "contact": "Contacto",
+    "getQuote": "Cotizar ahora",
+    "phone": "(801) 555-1234",
+    "topStrip": "Atendiendo todo Utah, Estados Unidos"
+  },
+
+  "hero": {
+    "locationBadge": "Atendiendo todo Utah, Estados Unidos",
+    "availableNow": "Disponible ahora",
+    "title": {
+      "line1": "Servicios Profesionales",
+      "line2": "de Limpieza",
+      "preLocation": "en ",
+      "location": "Utah"
+    },
+    "subtitle": "Avella Cleaning Services LLC ofrece servicios de limpieza <1>residencial y comercial</1> con los más altos estándares de calidad. De confianza para hogares y empresas en todo Utah.",
+    "trust": [
+      "Totalmente asegurado y acreditado",
+      "Productos ecológicos",
+      "Personal con verificación de antecedentes",
+      "Satisfacción garantizada"
+    ],
+    "ctaPrimary": "Solicitar cotización gratis",
+    "ctaSecondary": "Ver nuestros servicios",
+    "scrollHint": "Desplázate para explorar",
+    "stats": {
+      "clients": "Clientes felices",
+      "jobs": "Trabajos realizados",
+      "years": "Años en Utah",
+      "satisfaction": "Índice de satisfacción"
+    },
+    "badges": [
+      { "label": "Calificación 5★", "sub": "200+ reseñas verificadas" },
+      { "label": "100% Garantizado", "sub": "Satisfacción o regresamos" },
+      { "label": "Respuesta en 2h", "sub": "Agendamiento rápido y confiable" }
+    ]
+  },
+
+  "services": {
+    "tag": "Lo que hacemos",
+    "title": "Soluciones de limpieza para",
+    "titleHighlight": "cada espacio en Utah",
+    "subtitle": "Desde hogares hasta grandes instalaciones comerciales — nuestro equipo certificado entrega resultados consistentes de alta calidad en cada visita.",
+    "ctaNote": "¿Necesitas un plan de limpieza personalizado?",
+    "ctaBtn": "Hablar con un especialista",
+    "requestBtn": "Solicitar este servicio",
+    "items": [
+      {
+        "title": "Limpieza Residencial",
+        "description": "Cuidamos tu hogar con dedicación y detalle. Limpieza profunda de todas las habitaciones con productos especializados que garantizan higiene y frescura.",
+        "features": ["Todas las habitaciones", "Cocina y baños", "Ventanas y pisos"],
+        "tag": "Más popular"
+      },
+      {
+        "title": "Limpieza Comercial",
+        "description": "Un espacio de trabajo limpio mejora la productividad. Ofrecemos planes a medida para empresas de cualquier tamaño en Utah.",
+        "features": ["Espacios de trabajo", "Vestíbulos y pasillos", "Áreas comunes"],
+        "tag": null
+      },
+      {
+        "title": "Limpieza de Oficinas",
+        "description": "Limpieza profesional de oficinas según tu horario — diario, semanal o quincenal. Trabajamos alrededor de tus horas sin interrupciones.",
+        "features": ["Escritorios y equipos", "Pisos y alfombras", "Baños y cocinas"],
+        "tag": null
+      },
+      {
+        "title": "Limpieza Post Obra",
+        "description": "¿Obra nueva o remodelación? Eliminamos todo el polvo, escombros y residuos de construcción para dejar tu espacio listo para habitar.",
+        "features": ["Remoción de escombros", "Limpieza de polvo fino", "Pulido de superficies"],
+        "tag": null
+      },
+      {
+        "title": "Mantenimiento General",
+        "description": "Mantén tu propiedad en óptimas condiciones todo el año. Mantenimiento preventivo y correctivo para residencias y edificios comerciales.",
+        "features": ["Áreas comunes", "Fachadas externas", "Áreas verdes"],
+        "tag": null
+      },
+      {
+        "title": "Desinfección de Espacios",
+        "description": "Protocolos avanzados de desinfección con productos certificados por la EPA. Eliminamos el 99.9% de bacterias y virus para un ambiente seguro.",
+        "features": ["Nebulización profunda", "Productos certificados", "Certificado del proceso"],
+        "tag": "Recomendado"
+      }
+    ]
+  },
+
+  "whyUs": {
+    "tag": "Por qué elegirnos",
+    "title": "La empresa de limpieza",
+    "titleHighlight": "más confiable de Utah",
+    "subtitle": "No somos solo otra empresa de limpieza. Avella Cleaning Services LLC es tu socio de confianza para mantener espacios impecables, saludables y acogedores — para tu familia, tu equipo o tus clientes.",
+    "ctaBtn": "Obtener presupuesto gratis",
+    "achievementRated": "#1",
+    "achievementRatedLabel": "En satisfacción del cliente",
+    "achievementRetention": "98%",
+    "achievementRetentionLabel": "Tasa de recontratación",
+    "utahNote": "<1>Atendemos con orgullo Utah</1> — Salt Lake City, Provo, Ogden, Orem, St. George, Layton y zonas aledañas.",
+    "advantages": [
+      {
+        "title": "Personal Certificado y Capacitado",
+        "description": "Cada miembro del equipo pasa verificación de antecedentes, capacitación profesional y programas de certificación continua."
+      },
+      {
+        "title": "Tiempo de Respuesta Rápido",
+        "description": "Respondemos en 2 horas y ofrecemos horarios flexibles — mañana, tarde o fin de semana según tu calendario."
+      },
+      {
+        "title": "Productos Ecológicos",
+        "description": "Todos nuestros productos están certificados por la EPA y son seguros para niños, mascotas y el medio ambiente."
+      },
+      {
+        "title": "Cobertura en Todo Utah",
+        "description": "Atendemos Salt Lake City, Provo, Ogden, St. George y todo el estado. Equipos locales, alcance estatal."
+      },
+      {
+        "title": "Garantía de Satisfacción",
+        "description": "¿No quedaste 100% satisfecho? Regresamos sin costo adicional. Tu satisfacción completa es nuestro único resultado aceptable."
+      },
+      {
+        "title": "Precios Transparentes",
+        "description": "Sin costos ocultos, sin sorpresas. Cotizaciones claras adaptadas a tus necesidades y presupuesto. Calidad premium a precios justos."
+      }
+    ]
+  },
+
+  "stats": {
+    "tag": "Nuestros números",
+    "title": "Resultados que hablan",
+    "titleHighlight": "por sí solos",
+    "subtitle": "Años de dedicación y excelencia en cada rincón de Utah.",
+    "items": [
+      { "label": "Clientes Felices", "description": "En todo Utah" },
+      { "label": "Trabajos Completados", "description": "Resultados comprobados" },
+      { "label": "Años Sirviendo Utah", "description": "Experiencia local" },
+      { "label": "Índice de Satisfacción", "description": "Respaldamos nuestro trabajo" }
+    ]
+  },
+
+  "process": {
+    "tag": "Cómo trabajamos",
+    "title": "Proceso simple,",
+    "titleHighlight": "resultados excepcionales",
+    "subtitle": "Hemos simplificado cada paso para que obtener un espacio impecable en Utah sea lo más fácil y sin complicaciones posible.",
+    "ctaBtn": "Comenzar hoy",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Solicitar cotización",
+        "description": "Contáctanos por teléfono, mensaje o formulario en línea. Cuéntanos sobre tu espacio y lo que necesitas — escuchamos y respondemos rápido.",
+        "detail": "Respuesta en menos de 2 horas"
+      },
+      {
+        "number": "02",
+        "title": "Evaluación personalizada",
+        "description": "Evaluamos tu propiedad, definimos el plan ideal de limpieza y proporcionamos una cotización detallada y transparente — siempre sin costo.",
+        "detail": "Presupuesto gratuito, sin compromiso"
+      },
+      {
+        "number": "03",
+        "title": "Ejecución profesional",
+        "description": "Nuestro equipo certificado llega puntual con todo el equipo y suministros. Trabajamos eficientemente con respeto total por tu espacio y privacidad.",
+        "detail": "Personal uniformado y verificado"
+      },
+      {
+        "number": "04",
+        "title": "Entrega de calidad",
+        "description": "Realizamos un recorrido final contigo. ¿No estás satisfecho con algún detalle? Lo corregimos en el acto — sin preguntas, sin costo adicional.",
+        "detail": "100% satisfacción garantizada"
+      }
+    ]
+  },
+
+  "gallery": {
+    "tag": "Nuestros trabajos",
+    "title": "Resultados reales en",
+    "titleHighlight": "propiedades de Utah",
+    "subtitle": "Pasa el cursor sobre cada imagen para ver la transformación antes y después. Nuestro trabajo habla por sí mismo.",
+    "beforeLabel": "ANTES",
+    "afterLabel": "DESPUÉS",
+    "items": [
+      { "label": "Oficina Corporativa", "category": "Comercial" },
+      { "label": "Hogar Familiar", "category": "Residencial" },
+      { "label": "Local Comercial", "category": "Comercial" },
+      { "label": "Obra Nueva", "category": "Post Obra" },
+      { "label": "Edificio de Apartamentos", "category": "Mantenimiento" },
+      { "label": "Consultorio Médico", "category": "Desinfección" }
+    ]
+  },
+
+  "testimonials": {
+    "tag": "Opiniones de clientes",
+    "title": "Lo que dicen nuestros",
+    "titleHighlight": "clientes en Utah",
+    "subtitle": "Más de 500 clientes satisfechos en todo Utah confían en Avella para sus necesidades de limpieza.",
+    "aggregateRating": "4.9",
+    "aggregateFrom": "de 200+ reseñas verificadas en Utah",
+    "items": [
+      {
+        "name": "Jennifer Walsh",
+        "role": "Propietaria",
+        "company": "Salt Lake City, UT",
+        "text": "Avella Cleaning Services lleva más de un año cuidando nuestra casa y no podríamos estar más contentos. Siempre puntuales, minuciosos y tratan nuestra casa con mucho cuidado. ¡Totalmente recomendados para cualquier familia en Utah!"
+      },
+      {
+        "name": "Michael Torres",
+        "role": "Gerente de Oficina",
+        "company": "Provo, UT",
+        "text": "Contratamos a Avella para nuestra oficina en Provo y los resultados fueron sobresalientes. Profesionales, discretos e increíblemente detallistas. Nuestros empleados han notado la diferencia. Renovamos el contrato sin dudarlo."
+      },
+      {
+        "name": "Sarah Bennett",
+        "role": "Dueña de Propiedad",
+        "company": "Ogden, UT",
+        "text": "Los usé para la limpieza post construcción en mi nueva casa en Ogden. Convirtieron lo que parecía un sitio de construcción polvoriento en un hogar listo para vivir en un solo día. Absolutamente vale cada centavo."
+      },
+      {
+        "name": "David Kimball",
+        "role": "Dueño de Restaurante",
+        "company": "Orem, UT",
+        "text": "Necesitábamos una limpieza comercial profunda para nuestro restaurante en Orem. Avella llegó con un equipo completo y manejó todo con impresionante profesionalismo. El certificado de desinfección fue un gran valor agregado para nuestras inspecciones sanitarias."
+      },
+      {
+        "name": "Amanda Christensen",
+        "role": "Presidenta de HOA",
+        "company": "St. George, UT",
+        "text": "Administrar un complejo residencial es exigente. Avella maneja nuestras áreas comunes a la perfección. Los residentes elogian constantemente lo limpio que luce todo. Servicio A+ en todos los aspectos."
+      }
+    ]
+  },
+
+  "cta": {
+    "badge": "Disponible ahora · Atendiendo todo Utah",
+    "title": "¿Listo para transformar",
+    "titleHighlight": "tu espacio?",
+    "subtitle": "Obtén tu cotización gratuita y sin compromiso hoy mismo. Nuestro equipo de Utah responde en 2 horas — sin costos ocultos, sin sorpresas, solo una limpieza excepcional.",
+    "primaryBtn": "Obtener presupuesto gratis",
+    "secondaryBtn": "Escríbenos por WhatsApp",
+    "trust": [
+      "✓ Cotización gratuita, sin compromiso",
+      "✓ Respuesta garantizada en 2 horas",
+      "✓ Totalmente asegurado y acreditado",
+      "✓ 100% satisfacción garantizada"
+    ],
+    "phoneLabel": "O llámanos directamente:"
+  },
+
+  "contact": {
+    "tag": "Contáctanos",
+    "title": "Solicita una cotización gratis",
+    "titleHighlight": "para tu propiedad en Utah",
+    "subtitle": "Cuéntanos sobre tu espacio y te responderemos en menos de 2 horas con un presupuesto personalizado y sin obligación.",
+    "info": {
+      "phone": { "label": "Teléfono", "value": "(801) 555-1234" },
+      "email": { "label": "Email", "value": "info@avellaclean.com" },
+      "location": { "label": "Ubicación", "value": "Utah, Estados Unidos" },
+      "hours": { "label": "Horarios", "value": "Lun–Sáb: 7am – 7pm MT" },
+      "whatsappLabel": "WhatsApp",
+      "whatsappValue": "Chatea con nosotros ahora",
+      "serviceAreaTitle": "Área de servicio en Utah",
+      "serviceAreaDesc": "Atendemos Salt Lake City, Provo, Ogden, Orem, St. George, Layton, Murray, West Jordan, Sandy y todas las comunidades aledañas de Utah."
+    },
+    "form": {
+      "nameLabel": "Nombre completo",
+      "namePlaceholder": "Tu nombre completo",
+      "phoneLabel": "Número de teléfono",
+      "phonePlaceholder": "(801) 000-0000",
+      "emailLabel": "Correo electrónico",
+      "emailPlaceholder": "tu@correo.com",
+      "serviceLabel": "Servicio requerido",
+      "servicePlaceholder": "Selecciona un servicio",
+      "areaLabel": "Ciudad en Utah",
+      "areaPlaceholder": "Selecciona tu ciudad",
+      "messageLabel": "Cuéntanos más",
+      "messagePlaceholder": "Describe tu espacio, tamaño, frecuencia deseada y cualquier requisito especial...",
+      "submitBtn": "Solicitar cotización gratis",
+      "submitting": "Enviando...",
+      "privacyNote": "Respetamos tu privacidad. Sin spam, nunca. Respuesta en menos de 2 horas hábiles."
+    },
+    "success": {
+      "title": "¡Solicitud enviada!",
+      "message": "Nuestro equipo de Utah te contactará en menos de 2 horas con tu cotización personalizada.",
+      "resetBtn": "Enviar otra solicitud"
+    },
+    "services": [
+      "Limpieza Residencial",
+      "Limpieza Comercial",
+      "Limpieza de Oficinas",
+      "Limpieza Post Obra",
+      "Mantenimiento General",
+      "Desinfección de Espacios"
+    ],
+    "areas": [
+      "Salt Lake City",
+      "Provo",
+      "Ogden",
+      "Orem",
+      "St. George",
+      "Layton",
+      "Murray",
+      "West Jordan",
+      "Sandy",
+      "Otra ciudad de Utah"
+    ]
+  },
+
+  "footer": {
+    "tagline": "Servicios profesionales de limpieza residencial y comercial atendiendo con orgullo Utah desde 2016. Calidad, confiabilidad y excelencia en cada trabajo.",
+    "utahBadge": "Atendiendo Utah, Estados Unidos",
+    "nav": "Navegación",
+    "servicesTitle": "Servicios",
+    "contactTitle": "Contáctanos",
+    "phone": { "label": "Teléfono", "value": "(801) 555-1234" },
+    "email": { "label": "Email", "value": "info@avellaclean.com" },
+    "location": { "label": "Ubicación", "value": "Utah, Estados Unidos" },
+    "hours": { "label": "Horarios", "value": "Lun–Sáb 7am–7pm MT" },
+    "insuredBadge": "Totalmente asegurado y acreditado · Licenciado en Utah",
+    "areasTitle": "Atendemos con orgullo comunidades en todo Utah",
+    "copyright": "Avella Cleaning Services LLC. Todos los derechos reservados.",
+    "madeIn": "Hecho con",
+    "madeInLocation": "en Utah",
+    "privacy": "Privacidad",
+    "terms": "Términos de servicio",
+    "areas": [
+      "Salt Lake City", "Provo", "Ogden", "Orem",
+      "St. George", "Layton", "Murray", "Sandy"
+    ],
+    "quickLinks": [
+      { "label": "Servicios", "href": "#services" },
+      { "label": "Por qué elegirnos", "href": "#why-us" },
+      { "label": "Nuestro proceso", "href": "#process" },
+      { "label": "Galería", "href": "#gallery" },
+      { "label": "Testimonios", "href": "#testimonials" },
+      { "label": "Obtener cotización", "href": "#contact" }
+    ]
+  }
+}

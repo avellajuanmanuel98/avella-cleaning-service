@@ -1,0 +1,345 @@
+{
+  "lang": "en",
+
+  "nav": {
+    "services": "Services",
+    "whyUs": "Why Us",
+    "process": "Process",
+    "gallery": "Gallery",
+    "testimonials": "Testimonials",
+    "contact": "Contact",
+    "getQuote": "Get a Quote",
+    "phone": "(801) 555-1234",
+    "topStrip": "Serving all of Utah, United States"
+  },
+
+  "hero": {
+    "locationBadge": "Serving all of Utah, United States",
+    "availableNow": "Available now",
+    "title": {
+      "line1": "Professional",
+      "line2": "Cleaning Services",
+      "preLocation": "in ",
+      "location": "Utah"
+    },
+    "subtitle": "Avella Cleaning Services LLC delivers <1>residential and commercial cleaning</1> with the highest standards of quality. Trusted by homes and businesses across Utah.",
+    "trust": [
+      "Fully Insured & Bonded",
+      "Eco-Friendly Products",
+      "Background-Checked Staff",
+      "Satisfaction Guaranteed"
+    ],
+    "ctaPrimary": "Get a Free Quote",
+    "ctaSecondary": "View Our Services",
+    "scrollHint": "Scroll to explore",
+    "stats": {
+      "clients": "Happy Clients",
+      "jobs": "Jobs Completed",
+      "years": "Years in Utah",
+      "satisfaction": "Satisfaction Rate"
+    },
+    "badges": [
+      { "label": "5-Star Rated", "sub": "200+ verified reviews" },
+      { "label": "100% Guaranteed", "sub": "Satisfaction or we return" },
+      { "label": "2-Hour Response", "sub": "Fast & reliable scheduling" }
+    ]
+  },
+
+  "services": {
+    "tag": "What We Do",
+    "title": "Cleaning Solutions for",
+    "titleHighlight": "Every Space in Utah",
+    "subtitle": "From cozy Utah homes to large commercial facilities — our trained team delivers consistent, high-quality results you can count on every time.",
+    "ctaNote": "Need a custom cleaning plan?",
+    "ctaBtn": "Talk to a Specialist",
+    "requestBtn": "Request this service",
+    "items": [
+      {
+        "title": "Residential Cleaning",
+        "description": "We care for your Utah home with dedication and attention to detail. Deep cleaning of all rooms with specialized products that guarantee hygiene and freshness.",
+        "features": ["All rooms & surfaces", "Kitchen & bathrooms", "Windows & floors"],
+        "tag": "Most Popular"
+      },
+      {
+        "title": "Commercial Cleaning",
+        "description": "A clean workspace boosts productivity. We offer tailored commercial cleaning plans for businesses of all sizes across Utah.",
+        "features": ["Work spaces", "Lobbies & hallways", "Common areas"],
+        "tag": null
+      },
+      {
+        "title": "Office Cleaning",
+        "description": "Professional office cleaning on your schedule — daily, weekly, or bi-weekly. We work around your hours with zero disruption.",
+        "features": ["Desks & equipment", "Floors & carpets", "Restrooms & break rooms"],
+        "tag": null
+      },
+      {
+        "title": "Post-Construction Cleaning",
+        "description": "New build or renovation? We remove all dust, debris, and construction residue to leave your space move-in or grand-opening ready.",
+        "features": ["Debris removal", "Fine dust cleaning", "Surface polishing"],
+        "tag": null
+      },
+      {
+        "title": "General Maintenance",
+        "description": "Keep your property in top condition year-round. Preventive and corrective maintenance for residential complexes and commercial buildings.",
+        "features": ["Common areas", "Exterior facades", "Landscaped areas"],
+        "tag": null
+      },
+      {
+        "title": "Disinfection Services",
+        "description": "Advanced disinfection protocols using EPA-certified products. We eliminate 99.9% of bacteria and viruses for a safe, healthy environment.",
+        "features": ["Deep fogging/misting", "Certified products", "Process certificate"],
+        "tag": "Recommended"
+      }
+    ]
+  },
+
+  "whyUs": {
+    "tag": "Why Choose Avella",
+    "title": "Utah's Most Trusted",
+    "titleHighlight": "Cleaning Company",
+    "subtitle": "We're not just another cleaning company. Avella Cleaning Services LLC is your long-term partner in maintaining spotless, healthy, and welcoming spaces — for your family, your team, or your clients.",
+    "ctaBtn": "Get a Free Estimate",
+    "achievementRated": "#1",
+    "achievementRatedLabel": "Rated in customer satisfaction",
+    "achievementRetention": "98%",
+    "achievementRetentionLabel": "Client retention rate",
+    "utahNote": "<1>Proudly serving Utah</1> — Salt Lake City, Provo, Ogden, Orem, St. George, Layton & surrounding areas.",
+    "advantages": [
+      {
+        "title": "Certified & Trained Staff",
+        "description": "Every team member undergoes rigorous background checks, professional training, and ongoing certification programs."
+      },
+      {
+        "title": "Fast Response Time",
+        "description": "We respond within 2 hours and offer flexible scheduling — morning, evening, or weekend slots to fit your calendar."
+      },
+      {
+        "title": "Eco-Friendly Products",
+        "description": "All our cleaning products are EPA-certified and safe for children, pets, and the environment — without compromising results."
+      },
+      {
+        "title": "Utah-Wide Coverage",
+        "description": "We serve Salt Lake City, Provo, Ogden, St. George, and everywhere in between. Local teams, statewide reach."
+      },
+      {
+        "title": "Satisfaction Guarantee",
+        "description": "Not 100% happy? We come back at no extra charge. Your complete satisfaction is our only acceptable outcome."
+      },
+      {
+        "title": "Transparent Pricing",
+        "description": "No hidden fees, no surprises. Upfront quotes tailored to your needs and budget. Premium quality at competitive Utah rates."
+      }
+    ]
+  },
+
+  "stats": {
+    "tag": "Our Numbers",
+    "title": "Results That Speak",
+    "titleHighlight": "for Themselves",
+    "subtitle": "Years of dedication and excellence across every corner of Utah.",
+    "items": [
+      { "label": "Happy Clients", "description": "Across Utah" },
+      { "label": "Jobs Completed", "description": "Proven results" },
+      { "label": "Years Serving Utah", "description": "Local expertise" },
+      { "label": "Satisfaction Rate", "description": "We stand behind our work" }
+    ]
+  },
+
+  "process": {
+    "tag": "How It Works",
+    "title": "Simple Process,",
+    "titleHighlight": "Exceptional Results",
+    "subtitle": "We've streamlined every step so getting a spotless space in Utah is as easy and hassle-free as possible.",
+    "ctaBtn": "Start Today",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Request a Quote",
+        "description": "Contact us by phone, text, or through our online form. Tell us about your space and what you need — we listen and respond fast.",
+        "detail": "Response within 2 hours"
+      },
+      {
+        "number": "02",
+        "title": "Custom Assessment",
+        "description": "We evaluate your property, define the ideal cleaning plan, and provide a detailed, transparent quote — always free of charge.",
+        "detail": "Free estimate, no obligation"
+      },
+      {
+        "number": "03",
+        "title": "Professional Execution",
+        "description": "Our certified team arrives on time with all equipment and supplies. We work efficiently with deep respect for your space and privacy.",
+        "detail": "Uniformed & background-checked"
+      },
+      {
+        "number": "04",
+        "title": "Quality Delivery",
+        "description": "We do a final walkthrough with you. Not satisfied with any detail? We fix it on the spot — no questions asked, no extra charge.",
+        "detail": "100% satisfaction guaranteed"
+      }
+    ]
+  },
+
+  "gallery": {
+    "tag": "Our Work",
+    "title": "Real Results Across",
+    "titleHighlight": "Utah Properties",
+    "subtitle": "Hover over each image to see the before & after transformation. Our work speaks for itself.",
+    "beforeLabel": "BEFORE",
+    "afterLabel": "AFTER",
+    "items": [
+      { "label": "Corporate Office", "category": "Commercial" },
+      { "label": "Family Home", "category": "Residential" },
+      { "label": "Retail Store", "category": "Commercial" },
+      { "label": "New Construction", "category": "Post-Construction" },
+      { "label": "Apartment Complex", "category": "Maintenance" },
+      { "label": "Medical Office", "category": "Disinfection" }
+    ]
+  },
+
+  "testimonials": {
+    "tag": "Client Reviews",
+    "title": "What Utah Clients",
+    "titleHighlight": "Say About Us",
+    "subtitle": "Over 500 satisfied clients across Utah trust Avella for their cleaning needs. Here's what some of them have to say.",
+    "aggregateRating": "4.9",
+    "aggregateFrom": "from 200+ verified reviews in Utah",
+    "items": [
+      {
+        "name": "Jennifer Walsh",
+        "role": "Homeowner",
+        "company": "Salt Lake City, UT",
+        "text": "Avella Cleaning Services has been taking care of our home for over a year and we couldn't be happier. Always on time, thorough, and treat our house with so much care. Highly recommend to any Utah family!"
+      },
+      {
+        "name": "Michael Torres",
+        "role": "Office Manager",
+        "company": "Provo, UT",
+        "text": "We hired Avella for our office in Provo and the results were outstanding. Professional, discreet, and incredibly detail-oriented. Our employees have noticed the difference. We renewed our contract without hesitation."
+      },
+      {
+        "name": "Sarah Bennett",
+        "role": "Property Owner",
+        "company": "Ogden, UT",
+        "text": "Used them for post-construction cleaning on my new build in Ogden. They turned what looked like a dusty construction site into a move-in-ready home in one day. Absolutely worth every penny."
+      },
+      {
+        "name": "David Kimball",
+        "role": "Restaurant Owner",
+        "company": "Orem, UT",
+        "text": "We needed deep commercial cleaning for our restaurant in Orem. Avella showed up with a full crew and handled everything with impressive professionalism. The disinfection certificate was a great touch for our health inspections."
+      },
+      {
+        "name": "Amanda Christensen",
+        "role": "HOA President",
+        "company": "St. George, UT",
+        "text": "Managing a residential complex is demanding. Avella handles our common areas maintenance flawlessly. Our residents constantly compliment how clean everything looks. A+ service across the board."
+      }
+    ]
+  },
+
+  "cta": {
+    "badge": "Available Now · Serving All of Utah",
+    "title": "Ready to Transform",
+    "titleHighlight": "Your Space?",
+    "subtitle": "Get your free, no-obligation quote today. Our Utah team responds within 2 hours — no hidden fees, no surprises, just exceptional cleaning.",
+    "primaryBtn": "Get Your Free Estimate",
+    "secondaryBtn": "Text or WhatsApp Us",
+    "trust": [
+      "✓ Free quote, no commitment",
+      "✓ 2-hour response guarantee",
+      "✓ Fully insured & bonded",
+      "✓ 100% satisfaction guaranteed"
+    ],
+    "phoneLabel": "Or call us directly:"
+  },
+
+  "contact": {
+    "tag": "Get In Touch",
+    "title": "Request a Free Quote",
+    "titleHighlight": "for Your Utah Property",
+    "subtitle": "Tell us about your space and we'll get back to you within 2 hours with a personalized, no-obligation estimate.",
+    "info": {
+      "phone": { "label": "Phone", "value": "(801) 555-1234" },
+      "email": { "label": "Email", "value": "info@avellaclean.com" },
+      "location": { "label": "Location", "value": "Utah, United States" },
+      "hours": { "label": "Hours", "value": "Mon–Sat: 7am – 7pm MT" },
+      "whatsappLabel": "WhatsApp",
+      "whatsappValue": "Chat with us now",
+      "serviceAreaTitle": "Utah Service Area",
+      "serviceAreaDesc": "We serve Salt Lake City, Provo, Ogden, Orem, St. George, Layton, Murray, West Jordan, Sandy & all surrounding Utah communities."
+    },
+    "form": {
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Your full name",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "(801) 000-0000",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "you@email.com",
+      "serviceLabel": "Service Needed",
+      "servicePlaceholder": "Select a service",
+      "areaLabel": "Utah Area",
+      "areaPlaceholder": "Select your city",
+      "messageLabel": "Tell Us More",
+      "messagePlaceholder": "Describe your space, size (sq ft), frequency needed, and any special requirements...",
+      "submitBtn": "Request Free Quote",
+      "submitting": "Sending...",
+      "privacyNote": "We respect your privacy. No spam, ever. Response within 2 business hours."
+    },
+    "success": {
+      "title": "Request Submitted!",
+      "message": "Our Utah team will contact you within 2 hours with a personalized quote.",
+      "resetBtn": "Submit Another Request"
+    },
+    "services": [
+      "Residential Cleaning",
+      "Commercial Cleaning",
+      "Office Cleaning",
+      "Post-Construction Cleaning",
+      "General Maintenance",
+      "Disinfection Services"
+    ],
+    "areas": [
+      "Salt Lake City",
+      "Provo",
+      "Ogden",
+      "Orem",
+      "St. George",
+      "Layton",
+      "Murray",
+      "West Jordan",
+      "Sandy",
+      "Other Utah Area"
+    ]
+  },
+
+  "footer": {
+    "tagline": "Professional residential and commercial cleaning services proudly serving Utah since 2016. Quality, reliability, and excellence in every job.",
+    "utahBadge": "Serving Utah, United States",
+    "nav": "Navigation",
+    "servicesTitle": "Services",
+    "contactTitle": "Contact Us",
+    "phone": { "label": "Phone", "value": "(801) 555-1234" },
+    "email": { "label": "Email", "value": "info@avellaclean.com" },
+    "location": { "label": "Location", "value": "Utah, United States" },
+    "hours": { "label": "Hours", "value": "Mon–Sat 7am–7pm MT" },
+    "insuredBadge": "Fully Insured & Bonded · Utah Licensed",
+    "areasTitle": "Proudly serving communities across Utah",
+    "copyright": "Avella Cleaning Services LLC. All rights reserved.",
+    "madeIn": "Made with",
+    "madeInLocation": "in Utah",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "areas": [
+      "Salt Lake City", "Provo", "Ogden", "Orem",
+      "St. George", "Layton", "Murray", "Sandy"
+    ],
+    "quickLinks": [
+      { "label": "Services", "href": "#services" },
+      { "label": "Why Choose Us", "href": "#why-us" },
+      { "label": "Our Process", "href": "#process" },
+      { "label": "Gallery", "href": "#gallery" },
+      { "label": "Testimonials", "href": "#testimonials" },
+      { "label": "Get a Quote", "href": "#contact" }
+    ]
+  }
+}
