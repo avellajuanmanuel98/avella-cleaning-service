@@ -9,7 +9,7 @@
     "testimonials": "Testimonials",
     "contact": "Contact",
     "getQuote": "Get a Quote",
-    "phone": "(801) 555-1234",
+    "phone": "+1 (385) 229-6607",
     "topStrip": "Serving all of Utah, United States"
   },
 
@@ -259,8 +259,8 @@
     "titleHighlight": "for Your Utah Property",
     "subtitle": "Tell us about your space and we'll get back to you within 2 hours with a personalized, no-obligation estimate.",
     "info": {
-      "phone": { "label": "Phone", "value": "(801) 555-1234" },
-      "email": { "label": "Email", "value": "info@avellaclean.com" },
+      "phone": { "label": "Phone", "value": "+1 (385) 229-6607" },
+      "email": { "label": "Email", "value": "info@avellacleaningservices.com" },
       "location": { "label": "Location", "value": "Utah, United States" },
       "hours": { "label": "Hours", "value": "Mon–Sat: 7am – 7pm MT" },
       "whatsappLabel": "WhatsApp",
@@ -318,8 +318,8 @@
     "nav": "Navigation",
     "servicesTitle": "Services",
     "contactTitle": "Contact Us",
-    "phone": { "label": "Phone", "value": "(801) 555-1234" },
-    "email": { "label": "Email", "value": "info@avellaclean.com" },
+    "phone": { "label": "Phone", "value": "+1 (385) 229-6607" },
+    "email": { "label": "Email", "value": "info@avellacleaningservices.com" },
     "location": { "label": "Location", "value": "Utah, United States" },
     "hours": { "label": "Hours", "value": "Mon–Sat 7am–7pm MT" },
     "insuredBadge": "Fully Insured & Bonded · Utah Licensed",

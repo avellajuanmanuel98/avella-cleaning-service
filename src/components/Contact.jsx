@@ -1,4 +1,4 @@
-import { useState } from 'react'
+﻿import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle2, MessageCircle } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
@@ -64,7 +64,7 @@ export default function Contact() {
             })}
 
             {/* WhatsApp */}
-            <a href="https://wa.me/18015551234" target="_blank" rel="noopener noreferrer"
+            <a href="https://wa.me/13852296607" target="_blank" rel="noopener noreferrer"
               className="flex items-center gap-4 p-5 rounded-2xl text-white hover:-translate-y-0.5 transition-all duration-300"
               style={{ background: 'linear-gradient(135deg, #22c55e, #16a34a)', boxShadow: '0 8px 24px rgba(34,197,94,0.3)' }}>
               <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center shrink-0">

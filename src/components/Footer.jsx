@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+﻿import { motion } from 'framer-motion'
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin, Youtube, ArrowRight, Heart, Shield } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
@@ -10,7 +10,7 @@ const socials = [
 ]
 
 const contactIcons = [Phone, Mail, MapPin, Clock]
-const contactHrefs = ['tel:+18015551234', 'mailto:info@avellaclean.com', '#', '#']
+const contactHrefs = ['tel:+13852296607', 'mailto:info@avellacleaningservices.com', '#', '#']
 const contactKeys = ['phone', 'email', 'location', 'hours']
 
 export default function Footer() {
@@ -138,7 +138,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm" style={{ color: 'rgba(196,205,216,0.4)' }}>
-          <p>© {new Date().getFullYear()} {t('footer.copyright')}</p>
+          <p>Â© {new Date().getFullYear()} {t('footer.copyright')}</p>
           <p className="flex items-center gap-1.5">
             {t('footer.madeIn')} <Heart className="w-3.5 h-3.5 fill-rose-400 text-rose-400 mx-0.5" /> {t('footer.madeInLocation')}
           </p>

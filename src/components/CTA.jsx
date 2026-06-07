@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion'
+﻿import { motion } from 'framer-motion'
 import { ArrowRight, MessageCircle, Phone, MapPin } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
@@ -51,7 +51,7 @@ export default function CTA() {
             </motion.button>
 
             <motion.a whileHover={{ scale: 1.03, y: -2 }} whileTap={{ scale: 0.98 }}
-              href="https://wa.me/18015551234?text=Hola%2C%20me%20interesa%20una%20cotización%20de%20limpieza%20en%20Utah."
+              href="https://wa.me/13852296607?text=Hola%2C%20me%20interesa%20una%20cotizaciÃ³n%20de%20limpieza%20en%20Utah."
               target="_blank" rel="noopener noreferrer"
               className="px-10 py-4 font-bold text-base rounded-2xl border backdrop-blur-sm flex items-center gap-3 transition-all duration-200 hover:bg-white/20"
               style={{ background: 'rgba(255,255,255,0.08)', color: 'white', borderColor: 'rgba(255,255,255,0.2)' }}>
@@ -65,7 +65,7 @@ export default function CTA() {
           </div>
 
           <motion.a initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }} href="tel:+18015551234"
+            viewport={{ once: true }} href="tel:+13852296607"
             className="inline-flex items-center gap-2 mt-8 text-sm font-medium transition-colors duration-200"
             style={{ color: 'rgba(196,205,216,0.6)' }}>
             <Phone className="w-4 h-4" style={{ color: '#C9A040' }} />

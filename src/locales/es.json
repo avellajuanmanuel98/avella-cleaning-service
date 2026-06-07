@@ -9,7 +9,7 @@
     "testimonials": "Testimonios",
     "contact": "Contacto",
     "getQuote": "Cotizar ahora",
-    "phone": "(801) 555-1234",
+    "phone": "+1 (385) 229-6607",
     "topStrip": "Atendiendo todo Utah, Estados Unidos"
   },
 
@@ -259,8 +259,8 @@
     "titleHighlight": "para tu propiedad en Utah",
     "subtitle": "Cuéntanos sobre tu espacio y te responderemos en menos de 2 horas con un presupuesto personalizado y sin obligación.",
     "info": {
-      "phone": { "label": "Teléfono", "value": "(801) 555-1234" },
-      "email": { "label": "Email", "value": "info@avellaclean.com" },
+      "phone": { "label": "Teléfono", "value": "+1 (385) 229-6607" },
+      "email": { "label": "Email", "value": "info@avellacleaningservices.com" },
       "location": { "label": "Ubicación", "value": "Utah, Estados Unidos" },
       "hours": { "label": "Horarios", "value": "Lun–Sáb: 7am – 7pm MT" },
       "whatsappLabel": "WhatsApp",
@@ -318,8 +318,8 @@
     "nav": "Navegación",
     "servicesTitle": "Servicios",
     "contactTitle": "Contáctanos",
-    "phone": { "label": "Teléfono", "value": "(801) 555-1234" },
-    "email": { "label": "Email", "value": "info@avellaclean.com" },
+    "phone": { "label": "Teléfono", "value": "+1 (385) 229-6607" },
+    "email": { "label": "Email", "value": "info@avellacleaningservices.com" },
     "location": { "label": "Ubicación", "value": "Utah, Estados Unidos" },
     "hours": { "label": "Horarios", "value": "Lun–Sáb 7am–7pm MT" },
     "insuredBadge": "Totalmente asegurado y acreditado · Licenciado en Utah",
