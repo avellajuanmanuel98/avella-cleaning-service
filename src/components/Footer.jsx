@@ -11,9 +11,9 @@ function TikTokIcon({ className }) {
 }
 
 const socials = [
-  { icon: Facebook, href: '#', label: 'Facebook', hoverBg: '#1877F2' },
-  { icon: Instagram, href: '#', label: 'Instagram', hoverBg: '#E1306C' },
-  { custom: TikTokIcon, href: '#', label: 'TikTok', hoverBg: '#000000' },
+  { icon: Facebook, href: 'https://www.facebook.com/share/1D929TUfKT/?mibextid=wwXIfr', label: 'Facebook', hoverBg: '#1877F2' },
+  { icon: Instagram, href: 'https://www.instagram.com/avellacleaningservices?igsh=OHA0MXQwZ3htejZz', label: 'Instagram', hoverBg: '#E1306C' },
+  { custom: TikTokIcon, href: 'https://www.tiktok.com/@avellacleaningser?_r=1&_t=ZS-98MYZpzBt9o', label: 'TikTok', hoverBg: '#000000' },
 ]
 
 const contactIcons = [Phone, Mail, MapPin, Clock]
