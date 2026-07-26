@@ -34,24 +34,6 @@ export default function WhyChooseUs() {
             </h2>
             <p className="text-slate-500 text-lg leading-relaxed mb-8">{t('whyUs.subtitle')}</p>
 
-            {/* Achievement badges */}
-            <div className="flex flex-wrap gap-4 mb-10">
-              {[
-                { icon: Award, value: t('whyUs.achievementRated'), label: t('whyUs.achievementRatedLabel') },
-                { icon: TrendingUp, value: t('whyUs.achievementRetention'), label: t('whyUs.achievementRetentionLabel') },
-              ].map((a) => (
-                <div key={a.label} className="flex items-center gap-3 bg-slate-50 rounded-2xl px-5 py-4 border border-slate-100">
-                  <div className="w-10 h-10 rounded-xl flex items-center justify-center" style={{ background: 'rgba(201,160,64,0.12)' }}>
-                    <a.icon className="w-5 h-5" style={{ color: '#C9A040' }} />
-                  </div>
-                  <div>
-                    <p className="font-display font-black text-2xl" style={{ color: '#C9A040' }}>{a.value}</p>
-                    <p className="text-slate-500 text-xs leading-tight">{a.label}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-
             {/* Utah note */}
             <div className="flex items-center gap-3 p-4 rounded-2xl border mb-8"
               style={{ background: 'rgba(13,27,75,0.04)', borderColor: 'rgba(13,27,75,0.08)' }}>

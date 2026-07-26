@@ -39,9 +39,9 @@
       "satisfaction": "Índice de satisfacción"
     },
     "badges": [
-      { "label": "Calificación 5★", "sub": "200+ reseñas verificadas" },
+      { "label": "Calificación 5★", "sub": "Nuestro compromiso de calidad" },
       { "label": "100% Garantizado", "sub": "Satisfacción o regresamos" },
-      { "label": "Respuesta en 2h", "sub": "Agendamiento rápido y confiable" }
+      { "label": "Cotización Gratis", "sub": "Sin compromiso, sin costo" }
     ]
   },
 
@@ -95,9 +95,9 @@
 
   "whyUs": {
     "tag": "Por qué elegirnos",
-    "title": "La empresa de limpieza",
-    "titleHighlight": "más confiable de Utah",
-    "subtitle": "No somos solo otra empresa de limpieza. Avella Cleaning Services LLC es tu socio de confianza para mantener espacios impecables, saludables y acogedores — para tu familia, tu equipo o tus clientes.",
+    "title": "Empresa nueva en Utah,",
+    "titleHighlight": "con altos estándares desde el día 1",
+    "subtitle": "Somos una empresa nueva con la energía y el compromiso de quienes quieren ganarse cada cliente. Avella Cleaning Services LLC nace para ofrecer limpieza impecable, honesta y de confianza — para tu familia, tu equipo o tus clientes.",
     "ctaBtn": "Obtener presupuesto gratis",
     "achievementRated": "#1",
     "achievementRatedLabel": "En satisfacción del cliente",
@@ -110,8 +110,8 @@
         "description": "Cada miembro del equipo pasa verificación de antecedentes, capacitación profesional y programas de certificación continua."
       },
       {
-        "title": "Tiempo de Respuesta Rápido",
-        "description": "Respondemos en 2 horas y ofrecemos horarios flexibles — mañana, tarde o fin de semana según tu calendario."
+        "title": "Horarios Flexibles",
+        "description": "Ofrecemos horarios adaptados a tu agenda — mañana, tarde o fin de semana. Coordinamos la visita a tu conveniencia."
       },
       {
         "title": "Productos Ecológicos",
@@ -133,15 +133,15 @@
   },
 
   "stats": {
-    "tag": "Nuestros números",
-    "title": "Resultados que hablan",
-    "titleHighlight": "por sí solos",
-    "subtitle": "Años de dedicación y excelencia en cada rincón de Utah.",
+    "tag": "Nuestro compromiso",
+    "title": "Prometemos calidad",
+    "titleHighlight": "en cada visita",
+    "subtitle": "No medimos nuestro éxito en años sino en la satisfacción de cada cliente que nos abre la puerta.",
     "items": [
-      { "label": "Clientes Felices", "description": "En todo Utah" },
-      { "label": "Trabajos Completados", "description": "Resultados comprobados" },
-      { "label": "Años Sirviendo Utah", "description": "Experiencia local" },
-      { "label": "Índice de Satisfacción", "description": "Respaldamos nuestro trabajo" }
+      { "displayValue": "100%", "label": "Satisfacción Garantizada", "description": "Sin excepciones" },
+      { "displayValue": "$0", "label": "Cotización Siempre Gratis", "description": "Sin compromiso" },
+      { "displayValue": "5★", "label": "Servicio Premium", "description": "Calidad sin igual" },
+      { "displayValue": "EPA", "label": "Productos Certificados", "description": "Seguros y efectivos" }
     ]
   },
 
@@ -156,7 +156,7 @@
         "number": "01",
         "title": "Solicitar cotización",
         "description": "Contáctanos por teléfono, mensaje o formulario en línea. Cuéntanos sobre tu espacio y lo que necesitas — escuchamos y respondemos rápido.",
-        "detail": "Respuesta en menos de 2 horas"
+        "detail": "Te respondemos a la brevedad"
       },
       {
         "number": "02",
@@ -241,13 +241,13 @@
     "badge": "Disponible ahora · Atendiendo todo Utah",
     "title": "¿Listo para transformar",
     "titleHighlight": "tu espacio?",
-    "subtitle": "Obtén tu cotización gratuita y sin compromiso hoy mismo. Nuestro equipo de Utah responde en 2 horas — sin costos ocultos, sin sorpresas, solo una limpieza excepcional.",
+    "subtitle": "Obtén tu cotización gratuita y sin compromiso hoy mismo. Sin costos ocultos, sin sorpresas — solo una limpieza excepcional.",
     "primaryBtn": "Obtener presupuesto gratis",
     "secondaryBtn": "Escríbenos por WhatsApp",
     "trust": [
       "✓ Cotización gratuita, sin compromiso",
-      "✓ Respuesta garantizada en 2 horas",
-      "✓ Totalmente asegurado y acreditado",
+      "✓ Cotización rápida, sin esperas",
+      "✓ Licenciado en Utah",
       "✓ 100% satisfacción garantizada"
     ],
     "phoneLabel": "O llámanos directamente:"
@@ -257,10 +257,11 @@
     "tag": "Contáctanos",
     "title": "Solicita una cotización gratis",
     "titleHighlight": "para tu propiedad en Utah",
-    "subtitle": "Cuéntanos sobre tu espacio y te responderemos en menos de 2 horas con un presupuesto personalizado y sin obligación.",
+    "subtitle": "Cuéntanos sobre tu espacio y te enviaremos un presupuesto personalizado y sin obligación.",
     "info": {
       "phone": { "label": "Teléfono", "value": "+1 (385) 229-6607" },
-      "email": { "label": "Email", "value": "info@avellacleaningservices.com" },
+      "email": { "label": "Email corporativo", "value": "info@avellacleaningservices.com" },
+      "gmail": { "label": "Gmail", "value": "avellacleaningservices@gmail.com" },
       "location": { "label": "Ubicación", "value": "Utah, Estados Unidos" },
       "hours": { "label": "Horarios", "value": "Lun–Sáb: 7am – 7pm MT" },
       "whatsappLabel": "WhatsApp",
@@ -287,7 +288,7 @@
     },
     "success": {
       "title": "¡Solicitud enviada!",
-      "message": "Nuestro equipo de Utah te contactará en menos de 2 horas con tu cotización personalizada.",
+      "message": "Nuestro equipo de Utah te contactará pronto con tu cotización personalizada.",
       "resetBtn": "Enviar otra solicitud"
     },
     "services": [
@@ -313,7 +314,7 @@
   },
 
   "footer": {
-    "tagline": "Servicios profesionales de limpieza residencial y comercial atendiendo con orgullo Utah desde 2016. Calidad, confiabilidad y excelencia en cada trabajo.",
+    "tagline": "Empresa nueva en Utah con el compromiso de ofrecer servicios profesionales de limpieza residencial y comercial. Calidad, honestidad y excelencia en cada trabajo.",
     "utahBadge": "Atendiendo Utah, Estados Unidos",
     "nav": "Navegación",
     "servicesTitle": "Servicios",
@@ -322,7 +323,7 @@
     "email": { "label": "Email", "value": "info@avellacleaningservices.com" },
     "location": { "label": "Ubicación", "value": "Utah, Estados Unidos" },
     "hours": { "label": "Horarios", "value": "Lun–Sáb 7am–7pm MT" },
-    "insuredBadge": "Totalmente asegurado y acreditado · Licenciado en Utah",
+    "insuredBadge": "Licenciado en Utah · Comprometidos con la excelencia",
     "areasTitle": "Atendemos con orgullo comunidades en todo Utah",
     "copyright": "Avella Cleaning Services LLC. Todos los derechos reservados.",
     "madeIn": "Hecho con",

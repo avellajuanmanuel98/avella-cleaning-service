@@ -1,12 +1,19 @@
 ﻿import { motion } from 'framer-motion'
-import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Linkedin, Youtube, ArrowRight, Heart, Shield } from 'lucide-react'
+import { Phone, Mail, MapPin, Clock, Facebook, Instagram, ArrowRight, Heart, Shield } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
+
+function TikTokIcon({ className }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor">
+      <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.75a4.85 4.85 0 01-1.01-.06z"/>
+    </svg>
+  )
+}
 
 const socials = [
   { icon: Facebook, href: '#', label: 'Facebook', hoverBg: '#1877F2' },
   { icon: Instagram, href: '#', label: 'Instagram', hoverBg: '#E1306C' },
-  { icon: Linkedin, href: '#', label: 'LinkedIn', hoverBg: '#0077B5' },
-  { icon: Youtube, href: '#', label: 'YouTube', hoverBg: '#FF0000' },
+  { custom: TikTokIcon, href: '#', label: 'TikTok', hoverBg: '#000000' },
 ]
 
 const contactIcons = [Phone, Mail, MapPin, Clock]
@@ -55,7 +62,7 @@ export default function Footer() {
                   style={{ background: 'rgba(255,255,255,0.07)', border: '1px solid rgba(255,255,255,0.1)' }}
                   onMouseEnter={e => e.currentTarget.style.background = s.hoverBg}
                   onMouseLeave={e => e.currentTarget.style.background = 'rgba(255,255,255,0.07)'}>
-                  <s.icon className="w-4 h-4" />
+                  {s.custom ? <s.custom className="w-4 h-4" /> : <s.icon className="w-4 h-4" />}
                 </a>
               ))}
             </div>

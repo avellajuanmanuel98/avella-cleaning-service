@@ -3,11 +3,12 @@ import { motion } from 'framer-motion'
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle2, MessageCircle } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
-const contactIcons = [Phone, Mail, MapPin, Clock]
+const contactIcons = [Phone, Mail, Mail, MapPin, Clock]
 const contactColors = [
   { text: 'text-brand-blue', bg: 'bg-blue-50' },
   { text: 'text-violet-500', bg: 'bg-violet-50' },
   { text: 'text-rose-500', bg: 'bg-rose-50' },
+  { text: 'text-emerald-500', bg: 'bg-emerald-50' },
   { text: 'text-brand-gold', bg: 'bg-amber-50' },
 ]
 
@@ -26,7 +27,7 @@ export default function Contact() {
     setSent(true)
   }
 
-  const infoKeys = ['phone', 'email', 'location', 'hours']
+  const infoKeys = ['phone', 'email', 'gmail', 'location', 'hours']
 
   return (
     <section id="contact" className="py-24 bg-slate-50/50">
@@ -50,8 +51,13 @@ export default function Contact() {
               const info = t(`contact.info.${key}`)
               const Icon = contactIcons[i]
               const c = contactColors[i]
+              const href = key === 'phone' ? 'tel:+13852296607'
+                : key === 'email' ? 'mailto:info@avellacleaningservices.com'
+                : key === 'gmail' ? 'mailto:avellacleaningservices@gmail.com'
+                : undefined
+              const Wrapper = href ? 'a' : 'div'
               return (
-                <div key={key} className="group flex items-center gap-4 p-5 bg-white rounded-2xl border border-gray-100 hover:border-brand-blue/30 hover:shadow-card transition-all duration-300">
+                <Wrapper key={key} href={href} className="group flex items-center gap-4 p-5 bg-white rounded-2xl border border-gray-100 hover:border-brand-blue/30 hover:shadow-card transition-all duration-300">
                   <div className={`w-12 h-12 ${c.bg} rounded-xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300`}>
                     <Icon className={`w-5 h-5 ${c.text}`} strokeWidth={1.75} />
                   </div>
@@ -59,7 +65,7 @@ export default function Contact() {
                     <p className="text-xs text-slate-400 font-medium uppercase tracking-wider mb-0.5">{info.label}</p>
                     <p className="font-semibold text-navy-900 text-sm">{info.value}</p>
                   </div>
-                </div>
+                </Wrapper>
               )
             })}
 
@@ -122,24 +128,24 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label className="block text-sm font-semibold text-slate-700 mb-2">{t('contact.form.emailLabel')} *</label>
-                  <input type="email" name="email" required value={form.email} onChange={handleChange}
+                  <label className="block text-sm font-semibold text-slate-700 mb-2">{t('contact.form.emailLabel')}</label>
+                  <input type="email" name="email" value={form.email} onChange={handleChange}
                     placeholder={t('contact.form.emailPlaceholder')}
                     className="w-full px-4 py-3 bg-slate-50 border border-gray-200 rounded-xl text-sm text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:border-brand-blue transition-all duration-200" />
                 </div>
 
                 <div className="grid sm:grid-cols-2 gap-5">
                   <div>
-                    <label className="block text-sm font-semibold text-slate-700 mb-2">{t('contact.form.serviceLabel')} *</label>
-                    <select name="service" required value={form.service} onChange={handleChange}
+                    <label className="block text-sm font-semibold text-slate-700 mb-2">{t('contact.form.serviceLabel')}</label>
+                    <select name="service" value={form.service} onChange={handleChange}
                       className="w-full px-4 py-3 bg-slate-50 border border-gray-200 rounded-xl text-sm text-slate-800 focus:outline-none focus:ring-2 focus:border-brand-blue transition-all duration-200">
                       <option value="">{t('contact.form.servicePlaceholder')}</option>
                       {t('contact.services').map(s => <option key={s} value={s}>{s}</option>)}
                     </select>
                   </div>
                   <div>
-                    <label className="block text-sm font-semibold text-slate-700 mb-2">{t('contact.form.areaLabel')} *</label>
-                    <select name="area" required value={form.area} onChange={handleChange}
+                    <label className="block text-sm font-semibold text-slate-700 mb-2">{t('contact.form.areaLabel')}</label>
+                    <select name="area" value={form.area} onChange={handleChange}
                       className="w-full px-4 py-3 bg-slate-50 border border-gray-200 rounded-xl text-sm text-slate-800 focus:outline-none focus:ring-2 focus:border-brand-blue transition-all duration-200">
                       <option value="">{t('contact.form.areaPlaceholder')}</option>
                       {t('contact.areas').map(a => <option key={a} value={a}>{a}</option>)}

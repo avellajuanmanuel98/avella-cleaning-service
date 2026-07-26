@@ -10,12 +10,11 @@ export default function Navbar() {
   const [open, setOpen] = useState(false)
 
   const links = [
-    { label: t('nav.services'),      href: '#services' },
-    { label: t('nav.whyUs'),         href: '#why-us' },
-    { label: t('nav.process'),       href: '#process' },
-    { label: t('nav.gallery'),       href: '#gallery' },
-    { label: t('nav.testimonials'),  href: '#testimonials' },
-    { label: t('nav.contact'),       href: '#contact' },
+    { label: t('nav.services'),  href: '#services' },
+    { label: t('nav.whyUs'),    href: '#why-us' },
+    { label: t('nav.process'),  href: '#process' },
+    { label: t('nav.gallery'),  href: '#gallery' },
+    { label: t('nav.contact'),  href: '#contact' },
   ]
 
   useEffect(() => {
@@ -140,7 +139,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
-            className="fixed top-16 left-0 right-0 z-40 bg-white/97 backdrop-blur-xl border-b border-gray-100 shadow-xl md:hidden"
+            className={`fixed left-0 right-0 z-40 bg-white border-b border-gray-100 shadow-xl md:hidden ${scrolled ? 'top-16' : 'top-[95px]'}`}
           >
             <nav className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-1">
               {links.map((link) => (

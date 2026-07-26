@@ -1,28 +1,9 @@
-import { useEffect, useRef, useState } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { Users, ClipboardCheck, CalendarCheck, ThumbsUp } from 'lucide-react'
+import { useRef } from 'react'
+import { BadgeCheck, DollarSign, Star, Leaf } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
-const statIcons = [Users, ClipboardCheck, CalendarCheck, ThumbsUp]
-const statValues = [500, 1200, 8, 99]
-const statSuffixes = ['+', '+', '+', '%']
-
-function Counter({ target, suffix, active }) {
-  const [count, setCount] = useState(0)
-  useEffect(() => {
-    if (!active) return
-    let current = 0
-    const steps = 60
-    const increment = target / steps
-    const timer = setInterval(() => {
-      current = Math.min(current + increment, target)
-      setCount(Math.floor(current))
-      if (current >= target) clearInterval(timer)
-    }, 2000 / steps)
-    return () => clearInterval(timer)
-  }, [active, target])
-  return <span>{count.toLocaleString()}{suffix}</span>
-}
+const statIcons = [BadgeCheck, DollarSign, Star, Leaf]
 
 export default function Stats() {
   const { t } = useTranslation()
@@ -72,7 +53,7 @@ export default function Stats() {
                   {(() => { const Icon = statIcons[i]; return <Icon className="w-6 h-6" style={{ color: '#C9A040' }} strokeWidth={1.75} /> })()}
                 </div>
                 <p className="font-display font-black text-4xl md:text-5xl text-white mb-2" style={{ textShadow: '0 0 20px rgba(201,160,64,0.3)' }}>
-                  <Counter target={statValues[i]} suffix={statSuffixes[i]} active={inView} />
+                  {item.displayValue}
                 </p>
                 <p className="font-semibold text-sm mb-1" style={{ color: '#D4B558' }}>{item.label}</p>
                 <p className="text-slate-500 text-xs">{item.description}</p>
