@@ -4,12 +4,12 @@ import { ZoomIn, X, ChevronLeft, ChevronRight, Eye } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 const galleryImages = [
-  { before: '/gallery/office-after.png',        after: '/gallery/office-before.png' },
-  { before: '/gallery/home-after.png',          after: '/gallery/home-before.png' },
-  { before: '/gallery/retail-after.png',        after: '/gallery/retail-before.png' },
-  { before: '/gallery/construction-after.png',  after: '/gallery/construction-before.png' },
-  { before: '/gallery/hallway-after.png',       after: '/gallery/hallway-before.png' },
-  { before: '/gallery/medical-after.png',       after: '/gallery/medical-before.png' },
+  { before: '/gallery/office-before.png',       after: '/gallery/office-after.png' },
+  { before: '/gallery/home-before.png',         after: '/gallery/home-after.png' },
+  { before: '/gallery/retail-before.png',       after: '/gallery/retail-after.png' },
+  { before: '/gallery/construction-before.png', after: '/gallery/construction-after.png' },
+  { before: '/gallery/hallway-before.png',      after: '/gallery/hallway-after.png' },
+  { before: '/gallery/medical-before.png',      after: '/gallery/medical-after.png' },
 ]
 
 /* ── Gallery Card ── */
@@ -36,11 +36,11 @@ function GalleryCard({ item, images, onClick }) {
         className="absolute inset-0 w-full h-full object-cover"
       />
 
-      {/* After image — slides in from right */}
+      {/* After image — visible on right half, expands left on hover */}
       <motion.div
         className="absolute inset-0"
-        initial={{ clipPath: 'inset(0 100% 0 0)' }}
-        animate={{ clipPath: hovered ? 'inset(0 0% 0 0)' : 'inset(0 50% 0 0)' }}
+        initial={{ clipPath: 'inset(0 0 0 50%)' }}
+        animate={{ clipPath: hovered ? 'inset(0 0 0 0%)' : 'inset(0 0 0 50%)' }}
         transition={{ duration: 0.5, ease: 'easeInOut' }}>
         <img
           src={images.after}
@@ -52,7 +52,7 @@ function GalleryCard({ item, images, onClick }) {
       {/* Divider line */}
       <motion.div
         className="absolute top-0 bottom-0 w-0.5 bg-white shadow-lg z-10"
-        animate={{ left: hovered ? '100%' : '50%' }}
+        animate={{ left: hovered ? '0%' : '50%' }}
         transition={{ duration: 0.5, ease: 'easeInOut' }}
       />
 
