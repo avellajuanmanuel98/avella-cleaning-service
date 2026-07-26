@@ -12,10 +12,10 @@ export default function Hero() {
   const trust = t('hero.trust')
 
   const statsValues = [
-    { value: '500+', key: 'clients' },
-    { value: '1,200+', key: 'jobs' },
-    { value: '8+', key: 'years' },
-    { value: '99%', key: 'satisfaction' },
+    { value: '100%', key: 'clients' },
+    { value: '$0', key: 'jobs' },
+    { value: '5★', key: 'years' },
+    { value: 'EPA', key: 'satisfaction' },
   ]
 
   return (

@@ -33,10 +33,10 @@
     "ctaSecondary": "View Our Services",
     "scrollHint": "Scroll to explore",
     "stats": {
-      "clients": "Happy Clients",
-      "jobs": "Jobs Completed",
-      "years": "Years in Utah",
-      "satisfaction": "Satisfaction Rate"
+      "clients": "Satisfaction Guaranteed",
+      "jobs": "Quote Always Free",
+      "years": "Premium Service",
+      "satisfaction": "Certified Products"
     },
     "badges": [
       { "label": "5-Star Service", "sub": "Our quality commitment" },
@@ -120,10 +120,6 @@
       {
         "title": "Utah-Wide Coverage",
         "description": "We serve Salt Lake City, Provo, Ogden, St. George, and everywhere in between. Local teams, statewide reach."
-      },
-      {
-        "title": "Satisfaction Guarantee",
-        "description": "Not 100% happy? We come back at no extra charge. Your complete satisfaction is our only acceptable outcome."
       },
       {
         "title": "Transparent Pricing",

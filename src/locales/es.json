@@ -33,10 +33,10 @@
     "ctaSecondary": "Ver nuestros servicios",
     "scrollHint": "Desplázate para explorar",
     "stats": {
-      "clients": "Clientes felices",
-      "jobs": "Trabajos realizados",
-      "years": "Años en Utah",
-      "satisfaction": "Índice de satisfacción"
+      "clients": "Satisfacción garantizada",
+      "jobs": "Cotización siempre gratis",
+      "years": "Servicio premium",
+      "satisfaction": "Productos certificados"
     },
     "badges": [
       { "label": "Calificación 5★", "sub": "Nuestro compromiso de calidad" },
@@ -120,10 +120,6 @@
       {
         "title": "Cobertura en Todo Utah",
         "description": "Atendemos Salt Lake City, Provo, Ogden, St. George y todo el estado. Equipos locales, alcance estatal."
-      },
-      {
-        "title": "Garantía de Satisfacción",
-        "description": "¿No quedaste 100% satisfecho? Regresamos sin costo adicional. Tu satisfacción completa es nuestro único resultado aceptable."
       },
       {
         "title": "Precios Transparentes",
