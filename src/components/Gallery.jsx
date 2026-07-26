@@ -4,12 +4,12 @@ import { ZoomIn, X, ChevronLeft, ChevronRight, Eye } from 'lucide-react'
 import { useTranslation } from 'react-i18next'
 
 const galleryImages = [
-  { before: '/gallery/office-before.png',       after: '/gallery/office-after.png' },
-  { before: '/gallery/home-before.png',         after: '/gallery/home-after.png' },
-  { before: '/gallery/retail-before.png',       after: '/gallery/retail-after.png' },
-  { before: '/gallery/construction-before.png', after: '/gallery/construction-after.png' },
-  { before: '/gallery/hallway-before.png',      after: '/gallery/hallway-after.png' },
-  { before: '/gallery/medical-before.png',      after: '/gallery/medical-after.png' },
+  { before: '/gallery/office-after.png',        after: '/gallery/office-before.png' },
+  { before: '/gallery/home-after.png',          after: '/gallery/home-before.png' },
+  { before: '/gallery/retail-after.png',        after: '/gallery/retail-before.png' },
+  { before: '/gallery/construction-after.png',  after: '/gallery/construction-before.png' },
+  { before: '/gallery/hallway-after.png',       after: '/gallery/hallway-before.png' },
+  { before: '/gallery/medical-after.png',       after: '/gallery/medical-before.png' },
 ]
 
 /* ── Gallery Card ── */
